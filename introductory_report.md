@@ -3,7 +3,8 @@ Our project idea is to make, true to it's name, a miniature catapult for throwin
 The idea to create a marble throwing machine was inspired by the lecturer's mention of trebuchet during course introcuction as examples of what studens had created previously.Before deciding on the idea we few other ideas but they were practical and not so fun, thus the decision was made.
 
 Materials needed:
-    -(fill in)
+
+- (fill in)
 
 <img src="images/first_drawing.png" width="700">
 
