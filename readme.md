@@ -1,5 +1,3 @@
-Project for Principles of Digital Fabrication.
+Project for Principles of Digital Fabrication
 
-Inital idea was to make miniature catapult for throwing marbles.
-
-students: Aki Korpinen, Jaakko Astikainen, Eino Niemelä
+Students: Aki Korpinen, Jaakko Astikainen, Eino Niemelä, Antti Jääski
