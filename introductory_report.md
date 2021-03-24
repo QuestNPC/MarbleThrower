@@ -2,9 +2,11 @@ Our project idea is to make, true to it's name, a miniature catapult for throwin
 
 The idea to create a marble throwing machine was inspired by the lecturer's mention of trebuchet during course introcuction as examples of what studens had created previously.Before deciding on the idea we few other ideas but they were practical and not so fun, thus the decision was made.
 
+Our first group meeting on week 12 was about brainstorming the details for design and properties of the catapult, and where we should take the design in the beginning. 
+
 Materials needed:
 
-- (fill in)
+- Basic Arduino kit plus ultrasonic sensor
 
 <img src="images/first_drawing.png" width="700">
 
