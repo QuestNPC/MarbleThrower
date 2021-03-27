@@ -5,9 +5,11 @@ The idea to create a marble throwing machine was inspired by the lecturer's ment
 
 Materials needed:
 
-- Basic Arduino kit 
-- Ultrasonic sensor
-
+* Arduino Uno
+* Ultrasonic sensor
+* 2 x Micro Servo Motor
+* Push micro button
+* 3 x LEDs
 <img src="images/first_drawing.png" width="700">
 
 First scetch
