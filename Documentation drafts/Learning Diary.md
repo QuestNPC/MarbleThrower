@@ -12,4 +12,7 @@ After the TA session we discussed the idea futher, this time exploring using spr
 
 <img src="images/update1.png" width="800">
 
-Rough scetch of the updated idea.
+Rough sketch of the updated idea.
+
+
+###Week 13

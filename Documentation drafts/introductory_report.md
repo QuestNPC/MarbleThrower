@@ -12,8 +12,8 @@ Materials needed:
 * 3 x LEDs
 <img src="images/first_drawing.png" width="700">
 
-First scetch
+First sketch.
 
 <img src="images/better_drawing.png" width="700">
 
-Second, improved scetch after further deliberation.
+Second, improved sketch after further deliberation.
