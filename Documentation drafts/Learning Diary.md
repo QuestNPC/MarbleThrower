@@ -15,4 +15,10 @@ After the TA session we discussed the idea futher, this time exploring using spr
 Rough sketch of the updated idea.
 
 
-###Week 13
+### Week 13
+
+This week we started to actually work on the project. Aki started making a 3d model of the preject after fiddling around with Autodesk Fusion 360, which is our software of choise for the project. What Aki managed to make was a basic structure of our throwing machine. What needs to be made is to modify the structure to fit the components. There was a patheic attemt at animating joints to simulate the throwing motion, after a while of fiddling around success is yet to be found. Some understanding wass gained but not enough for the results to be satisfactory as of now.
+
+<img src="images/some_3d_modeling.png" width="800">
+
+Antti also picked up circuit design and code using Tinkercad as the platform. So far he has managed to implement 2 servos to roate in response to a button press.  
