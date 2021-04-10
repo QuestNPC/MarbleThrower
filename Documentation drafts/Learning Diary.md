@@ -22,7 +22,7 @@ This week we started to actually work on the project. As the priority number one
 
 Antti also picked up circuit design and code using Tinkercad as the platform. So far he has managed to implement 2 servos to roate in response to a button press. Later on third servo and potentiometer added to make rotation possible.  
 
-<img src="images/circuit_design.png" width="600">
+<img src="images/Circuit_design.png" width="600">
 
 First version of circuit design and code.
 
