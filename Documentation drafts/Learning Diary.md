@@ -22,7 +22,7 @@ This week we started to actually work on the project. As the priority number one
 
 Antti also picked up circuit design and code using Tinkercad as the platform. So far he has managed to implement 2 servos to roate in response to a button press.  
 
-<img src="images/circuit design.png" width="800">
+<img src="images/circuit design.png" width="600">
 
 ### Week 14 
 
