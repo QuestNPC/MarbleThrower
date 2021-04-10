@@ -22,6 +22,8 @@ This week we started to actually work on the project. As the priority number one
 
 Antti also picked up circuit design and code using Tinkercad as the platform. So far he has managed to implement 2 servos to roate in response to a button press.  
 
+<img src="images/circuit_design.png" width="800">
+
 ### Week 14 
 
 We finally recived our components for this project so it was time to build ciruit and test it in real life rather than in simulation. The circuit worked great on arduino as was expected. We had some concerns about the amount of torque a simple servo motor can provide so we made this test arm for the loading servo out of cardboard and tape. In the end of the loading arm there is two rubber bands that are tied together. After running some tests with this setup we can roughly say that the amount of torque the servo motor can provide isn't much. We already had some ideas on how to solve this problem if it becomes an issue. One solution would be to use cogwheels with the servo to decrease its range of motion but increase the torque the servo provides. 
