@@ -33,3 +33,12 @@ We finally recived our components for this project so it was time to build cirui
 <img src="images/Arduin_circuitV1.jpg" width="600">
 
 Here is the arduino circuit with loading servo, release servo and the servo for rotating the catapult. The button on the breadboard controls the release and loading mechanism while the potentiometer is used to rotate the base of the catapult between 0 and 180 degrees.
+
+Some progress also with circuit design and coding. Ultrasonic sensor and leds installed to the system. Depending of distance: one, two or three leds are on. 
+
+<img src="images/Circuit_design_v2.png" width="1000">
+
+Circuit design v2
+
+<iframe src="images/Code_v2.txt" width="100%" height="300">
+
