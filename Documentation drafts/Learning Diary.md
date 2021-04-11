@@ -40,5 +40,5 @@ Some progress also with circuit design and coding. Ultrasonic sensor and leds in
 
 Circuit design v2
 
-<img src="images/Code_v2.txt" width="100%" height="300">
+<txt src="images/Code_v2.txt" width="100%" height="300">
 
