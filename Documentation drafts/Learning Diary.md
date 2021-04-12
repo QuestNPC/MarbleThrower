@@ -28,7 +28,11 @@ First version of circuit design and code.
 
 ### Week 14 
 
-We finally recived our components for this project so it was time to build ciruit and test it in real life rather than in simulation. The circuit worked great on arduino as was expected. We had some concerns about the amount of torque a simple servo motor can provide so we made this test arm for the loading servo out of cardboard and tape. In the end of the loading arm there is two rubber bands that are tied together. After running some tests with this setup we can roughly say that the amount of torque the servo motor can provide isn't much. We already had some ideas on how to solve this problem if it becomes an issue. One solution would be to use cogwheels with the servo to decrease its range of motion but increase the torque the servo provides. 
+During the TA session/mid-term presentation we got a tip to consider how we secure the components together and mto make sure the suupporting surface is adequate as well as considering using laser cutting for platform/box as it is a lot less time consuming. We made some quick adjustments to the 3d model based on those advices.
+
+This week we finally recived our components for this project so it was time to build ciruit and test it in real life rather than in simulation. The circuit worked great on arduino as was expected. We had some concerns about the amount of torque a simple servo motor can provide so we made this test arm for the loading servo out of cardboard and tape. In the end of the loading arm there is two rubber bands that are tied together. After running some tests with this setup we can roughly say that the amount of torque the servo motor can provide isn't much. We already had some ideas on how to solve this problem if it becomes an issue. One solution would be to use cogwheels with the servo to decrease its range of motion but increase the torque the servo provides. We noted that servos moved 180 degrees so we decided to make cogs 2:3 ratio so we don't reduce the movement of the tensioning arm too much. We also shortened the tensioning arm a bit to reduce the load on it.
+
+While designing the platform and the container the friction and unbalance were to be concerned. Our solution to work around the issue was to make a simple ball bearing using the marbles that are spared the fate of being thrown.
 
 <img src="images/Arduin_circuitV1.jpg" width="600">
 
