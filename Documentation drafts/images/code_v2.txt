@@ -1,0 +1,96 @@
+#include <Servo.h>
+
+int buttonState = 0; //testikommentti muokkauksen testaamiseen -Aki
+
+Servo servo1; 
+Servo servo2;
+Servo servo3;
+
+int buttonPin = 2; //nappi pinniin 2
+int knobPin = A0; //analog pin johon potentiometri (knob) on kytketty
+int val; //muuttuja analog pinnin arvolle 
+int i = 0; // muuttuja i servojen käännölle
+int trigPin = 8; // Triggerpin Ultrasonic Sensor
+int echoPin = 9; // Echopin Ultrasonic Sensor
+long duration; // muuttuja ääniaallon kulun kestolle
+int distance; // muuttuja etäisyydelle
+int LedPin1 = 11; // Led 1 pinniin 11
+int LedPin2 = 12; // Led 2 pinniin 12
+int LedPin3 = 13; //Led 3 pinniin 13
+
+void setup() {
+  
+  Serial.begin(9600);
+  pinMode(trigPin, OUTPUT); // Sets the trigPin as an OUTPUT
+  pinMode(echoPin, INPUT); // Sets the echoPin as an INPUT
+  pinMode(buttonPin, INPUT); //napin tila pinnistä 2 sisään
+  pinMode(LedPin1, OUTPUT); // LedPinnit outputiksi
+  pinMode(LedPin2, OUTPUT);
+  pinMode(LedPin3, OUTPUT);
+  servo1.attach(3); //servo1 pinniin 3
+  servo2.attach(5); //servo2 pinniin 5
+  servo3.attach(6); //servo3 pinniin 6
+}
+
+void loop() {
+
+  val = analogRead(knobPin); //lukee analogipinnin arvon 
+  val = map(val, 0, 1023, 0, 175); // skaalaa potentiometrin arvot servolle (yli 175astetta menevät arvot saivat servon "tärisemään")
+  servo3.write(val); // kääntää servoa potentiometrin arvon mukaan
+  delay(15); // odottaa että servo kerkää tilaan
+  
+  digitalWrite(trigPin, LOW); //tyhjätään triggerPinin tila
+  delay(2);
+  digitalWrite(trigPin, HIGH); //Triggerpiniin signaali 10ms
+  delay(10);
+  digitalWrite(trigPin, LOW); //signaali poikki triggerpinistä
+  duration = pulseIn(echoPin, HIGH); //luetaan echoPin mikrosekunteina duration muuttujaan
+  distance = duration * 0.034 / 2; // Lasketaan etäisyys keston perusteella. Jako kahdella, edes takaisin
+  Serial.print(distance);
+  Serial.println(" cm");
+  
+  if (distance < 150) { //jos etäisyys on < 150cm syttyy led1
+    digitalWrite(LedPin1, HIGH);
+  }
+  if (distance < 90) { //jos etäisyys on < 90cm syttyy led1 ja led2
+    digitalWrite(LedPin1, HIGH);
+    digitalWrite(LedPin2, HIGH);
+  }
+  if (distance < 40) { //jos etäisyys on < 50cm syttyy led1, led2 ja led3
+    digitalWrite(LedPin1, HIGH);
+    digitalWrite(LedPin2, HIGH);
+    digitalWrite(LedPin3, HIGH);
+  }
+  else {
+    digitalWrite(LedPin1, LOW);
+    digitalWrite(LedPin2, LOW);
+    digitalWrite(LedPin3, LOW);
+  }
+  
+  buttonState = digitalRead(2); //buttonStateen luetaan pinni 2
+  if (buttonState == HIGH) { //jos nappia painetaan käännetään servo1 180 astetta
+    for (i = 0; i < 180; i++) { 
+      servo1.write(i);              
+      delay(10);                      
+    }
+    delay(1000); //kuminauhan lataavan servon käännön jälkeen odotetaan sekunti
+    for (i = 0; i < 90; i++) { //ja käännetään servo2 90 astetta, laukaisu
+      servo2.write(i);              
+      delay(10);                      
+    }
+    delay(1000); //laukaisun jälkeen sekunti viivettä
+    for (i = 180; i > 0; i--) { //ja käännetään servo1 takasin alkupisteeseen
+      servo1.write(i);               
+      delay(10);                      
+    }
+    delay(1000); //sekunnin viive ja käännetään servo2 lukitsevaan asentoon
+    for (i = 90; i > 0; i--) { 
+    servo2.write(i);               
+    delay(10); 
+    }
+  }
+  else {
+  servo1.write(0);
+  servo2.write(0);
+  }
+}

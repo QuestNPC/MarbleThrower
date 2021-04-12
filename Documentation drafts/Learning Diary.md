@@ -17,8 +17,29 @@ Rough sketch of the updated idea.
 
 ### Week 13
 
-This week we started to actually work on the project. Aki started making a 3d model of the preject after fiddling around with Autodesk Fusion 360, which is our software of choise for the project. What Aki managed to make was a basic structure of our throwing machine. What needs to be made is to modify the structure to fit the components. There was a patheic attemt at animating joints to simulate the throwing motion, after a while of fiddling around success is yet to be found. Some understanding wass gained but not enough for the results to be satisfactory as of now.
-
+This week we started to actually work on the project. As the priority number one we started making a 3d model of the project after fiddling around with Autodesk Fusion 360, which is our software of choice for the project. What we managed to make was a basic structure of our throwing machine. What needs to be made is to modify the structure to fit the components. While working on the model trying to animate joints to simulate the throwing motion proved to be challenging. After some fumbling around some insight on how it works in Autodesk Fusion 360 was gained. However, satisfactory results are yet to be found, proving there is learning to do. 
 <img src="images/some_3d_modeling.png" width="800">
 
-Antti also picked up circuit design and code using Tinkercad as the platform. So far he has managed to implement 2 servos to roate in response to a button press.  
+Antti also picked up circuit design and code using Tinkercad as the platform. So far he has managed to implement 2 servos to roate in response to a button press. Later on third servo and potentiometer added to make rotation possible.  
+
+<img src="images/Circuit_design.png" width="1000">
+
+First version of circuit design and code.
+
+### Week 14 
+
+During the TA session/mid-term presentation we got a tip to consider how we secure the components together and mto make sure the suupporting surface is adequate as well as considering using laser cutting for platform/box as it is a lot less time consuming. We made some quick adjustments to the 3d model based on those advices.
+
+This week we finally recived our components for this project so it was time to build ciruit and test it in real life rather than in simulation. The circuit worked great on arduino as was expected. We had some concerns about the amount of torque a simple servo motor can provide so we made this test arm for the loading servo out of cardboard and tape. In the end of the loading arm there is two rubber bands that are tied together. After running some tests with this setup we can roughly say that the amount of torque the servo motor can provide isn't much. We already had some ideas on how to solve this problem if it becomes an issue. One solution would be to use cogwheels with the servo to decrease its range of motion but increase the torque the servo provides. We noted that servos moved 180 degrees so we decided to make cogs 2:3 ratio so we don't reduce the movement of the tensioning arm too much. We also shortened the tensioning arm a bit to reduce the load on it.
+
+While designing the platform and the container the friction and unbalance were to be concerned. Our solution to work around the issue was to make a simple ball bearing using the marbles that are spared the fate of being thrown.
+
+<img src="images/Arduin_circuitV1.jpg" width="600">
+
+Here is the arduino circuit with loading servo, release servo and the servo for rotating the catapult. The button on the breadboard controls the release and loading mechanism while the potentiometer is used to rotate the base of the catapult between 0 and 180 degrees.
+
+Some progress also with circuit design and coding. Ultrasonic sensor and leds installed to the system. Depending of distance: one, two or three leds are on. 
+
+<img src="images/Circuit_design_v2.png" width="1000">
+
+Circuit design v2
