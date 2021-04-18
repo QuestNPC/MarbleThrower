@@ -50,3 +50,11 @@ Some progress also with circuit design and coding. Ultrasonic sensor and leds in
 <img src="images/Circuit_design_v2.png" width="1000">
 
 Circuit design v2
+
+### Week 15
+
+This week we came to learn of possibility to get a more powerful servo for tensioning during TA session. Rather than jumping on the chance right away we decided to try out how our current implementation and mitigations work with what we currently have. 
+
+3D models recieved some finishing touches with animations on gears/tensioning. Small changes were also made on how servo operating the lever holding throwing arm down is housed to make assembly/disassembly easier. We will first 3d print the tensioning to try out if bigger servo is needed, if it is the 3d model will be adjusted to it's size and then rest of the model is made.
+
+We also started to make 2d design of the box to be laser cut.
