@@ -58,3 +58,5 @@ This week we came to learn of possibility to get a more powerful servo for tensi
 3D models recieved some finishing touches with animations on gears/tensioning. Small changes were also made on how servo operating the lever holding throwing arm down is housed to make assembly/disassembly easier. We will first 3d print the tensioning to try out if bigger servo is needed, if it is the 3d model will be adjusted to it's size and then rest of the model is made.
 
 We also started to make 2d design of the box to be laser cut.
+
+Some testing with the code have been done also. Implementing automatic mode by reading distance and triggering based on that information seem to be too heavy code and at least on Tinkercad simulation causes lack of functionality. This need to progress more this week. 
