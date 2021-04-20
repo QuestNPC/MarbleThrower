@@ -59,4 +59,4 @@ This week we came to learn of possibility to get a more powerful servo for tensi
 
 We also started to make 2d design of the box to be laser cut.
 
-Some testing with the code have been done also. Implementing automatic mode by reading distance and triggering based on that information seem to be too heavy code and at least on Tinkercad simulation causes lack of functionality. This need to progress more this week. 
+Some testing with the code have been done also. Implementing automatic mode by reading distance and triggering based on that information seem to be too heavy code and at least on Tinkercad simulation causes lack of functionality. This need to progress more next week. 
