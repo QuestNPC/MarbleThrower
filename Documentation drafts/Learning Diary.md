@@ -67,7 +67,7 @@ Some testing with the code have been done also. Implementing automatic mode by r
 
   When removing supports on parts printed with Formlabs checks were made on the fit of some parts that needed to fit into each other. Connection between tensioning arm and larger gear was tight but it fit. However connection between the part connecting servo to the gear and the gear did not and required some "manual adjustments". Checking the 3D model to figure out how it was that one fit and the other didn't despite supposedly same tolerance, it was discovered that the part that didn't fit didn't have the tolerances set. That was either due to unwittingly undoing the adjustments while working on model or just forgetting to apply them on that part. The model and STL files were updated to have the tolerances to fit.
   
-  Also we got to know the model of bigger servo and thus the 3d models and STL files were made to house it and ready for printing if needed.
+  Also we got to know the model of bigger servo (HS-322HD) and thus the 3d models and STL files were made to house it and ready for printing if needed.
 
 <img src="images/Removing_supports.jpg" width="600">
 Removing supports from parts on friday.
