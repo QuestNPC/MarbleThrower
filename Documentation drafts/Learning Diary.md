@@ -70,6 +70,7 @@ Some testing with the code have been done also. Implementing automatic mode by r
   Also we got to know the model of bigger servo (HS-322HD) and thus the 3d models and STL files were made to house it and ready for printing if needed.
 
 <img src="images/Removing_supports.jpg" width="600">
+
 Removing supports from parts on friday.
 
 
@@ -78,5 +79,6 @@ Circuit design and code came ready during the weekend. Slideswitch for selecting
 User can now change mode at any time of operation. In manual mode first press to the push button tensions rubber band and second press triggers the catapult. In automatic mode pressing the push button tensions rubber band and ultrasonic sensor measures distance. In case of object within predefined range triggering occurs automatically. Range need to be found out via live testing. Leds indicating distance are working in both modes. 
 
 <img src="images/Circuit_design_v3.png" width="1000">
+
 Circuit design v3
 
