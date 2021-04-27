@@ -84,7 +84,7 @@ Circuit design v3
 
 First draft of the box to house the electronics as well as attach the 3D-printed parts was made. The box design needed some to be designed, and the bigger round platform was also added. There was slight confusion with inkscape as to how to get the in-app mm length measurements to correspond to the design file that is supposed to be correct.
 
-<img src="images/box_sketch_paper.jpg" width="1000">
+<img src="images/box_sketch_paper.jpg" width="600">
 
 ### Week 17
 
