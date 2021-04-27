@@ -66,6 +66,25 @@ Some testing with the code have been done also. Implementing automatic mode by r
 3D prints were done theursday-friday are ready to be fetched monday. Instructor Mikko Toivonen checked the STL files for possible issues and gave them green light. Some parts were printed using Stratasys Fortus 380mc but majority were made using Formlabs Form 2. Which to use on which  part was based on the instructors judgement. The parts were left to be printed on thursday and on friday when checking the printing result and removing supports before hardening. 
 
   When removing supports on parts printed with Formlabs checks were made on the fit of some parts that needed to fit into each other. Connection between tensioning arm and larger gear was tight but it fit. However connection between the part connecting servo to the gear and the gear did not and required some "manual adjustments". Checking the 3D model to figure out how it was that one fit and the other didn't despite supposedly same tolerance, it was discovered that the part that didn't fit didn't have the tolerances set. That was either due to unwittingly undoing the adjustments while working on model or just forgetting to apply them on that part. The model and STL files were updated to have the tolerances to fit.
+  
+  Also we got to know the model of bigger servo (HS-322HD) and thus the 3d models and STL files were made to house it and ready for printing if needed.
 
 <img src="images/Removing_supports.jpg" width="600">
+
 Removing supports from parts on friday.
+
+
+Circuit design and code came ready during the weekend. Slideswitch for selecting between manual and automatic mode added to the design. Implementation needed some thinking to make sure that the pin gets logigal zero when needed. 
+
+User can now change mode at any time of operation. In manual mode first press to the push button tensions rubber band and second press triggers the catapult. In automatic mode pressing the push button tensions rubber band and ultrasonic sensor measures distance. In case of object within predefined range triggering occurs automatically. Range need to be found out via live testing. Leds indicating distance are working in both modes. 
+
+<img src="images/Circuit_design_v3.png" width="1000">
+
+Circuit design v3
+
+First draft of the box to house the electronics as well as attach the 3D-printed parts was made. The box design needed some to be designed, and the bigger round platform was also added. There was slight confusion with inkscape as to how to get the in-app mm length measurements to correspond to the design file that is supposed to be correct but everything's pretty much in order now.
+
+<img src="images/box_sketch_paper.jpg" width="600">
+
+### Week 17
+
