@@ -90,4 +90,4 @@ First draft of the box to house the electronics as well as attach the 3D-printed
 
 The vector graphics for the box have been finished after coming to a design that should be a rather functioning compromise between functionality and simple design. What it needs next is laser cutting, which includes preparing the .svg files for laser cutting. The .svg files have been uploaded to the repository, and here is a picture of the inside design as it is right now.
 
-<img src="2021-04-30 07.49.45.jpg" width="1000">
+<img src="images/2021-04-30 07.49.45.jpg" width="1000">
