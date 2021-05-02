@@ -8,3 +8,4 @@
 * 1 x slide switch
 * 1 x M4x40 bolt + nut
 * Plywood
+* marbles/glassballs (14mm diam)
