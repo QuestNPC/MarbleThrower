@@ -91,3 +91,12 @@ First draft of the box to house the electronics as well as attach the 3D-printed
 The vector graphics for the box have been finished after coming to a design that should be a rather functioning compromise between functionality and simple design. What it needs next is laser cutting, which includes preparing the .svg files for laser cutting. The .svg files have been uploaded to the repository, and here is a picture of the inside design as it is right now.
 
 <img src="images/2021-04-30 07.49.45.jpg" width="1000">
+
+We also got to finally try out out printed parts and concept. Manually operating the thing worked wonders. 
+
+
+https://user-images.githubusercontent.com/71126555/116822472-942f6200-ab87-11eb-960a-7110dce07bb8.mp4
+
+
+
+While testing out with servo, the servo was at first too tight fit. After manual adjustments to the model we got the servo to fit and operate the gears to tension the arm. While the gears helped the servo to tension the arm, it wasn't enough. thus we ended up needing to ask TA for the bigger servo and print out the tower for it, however the parts are ready next monday.
